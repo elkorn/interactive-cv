@@ -17,6 +17,8 @@ app.get("/api/awesomeThings", api.awesomeThings);
 app.get("/api/workingSince", api.workingSince);
 app.get("/api/skills", api.skills);
 app.get("/api/education", api.education);
+app.get("/api/appInfo", api.appInfo);
+app.get("/api/workExperience", api.workExperience);
 
 // Angular Routes
 app.get("/partials/*", index.partials);

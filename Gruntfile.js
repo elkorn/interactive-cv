@@ -387,6 +387,8 @@ module.exports = function (grunt) {
         }
     });
 
+    grunt.loadNpmTasks("grunt-bump");
+
     grunt.registerTask("express-keepalive", "Keep grunt running", function () {
         this.async();
     });
@@ -417,6 +419,11 @@ module.exports = function (grunt) {
         "concurrent:test",
         "autoprefixer",
         "karma"
+    ]);
+
+    grunt.registerTask("css", [
+        "clean",
+        "compass"
     ]);
 
     grunt.registerTask("build", [

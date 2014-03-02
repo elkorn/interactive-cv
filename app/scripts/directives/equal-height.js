@@ -15,7 +15,6 @@ angular.module("interactiveCvApp")
                     }
                 }
 
-                equalizeHeight();
                 scope.$on("ui.equalizeHeight", equalizeHeight);
             }
         };

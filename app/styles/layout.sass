@@ -1,4 +1,5 @@
 @import "compass/css3/border-radius"
+@import "../bower_components/foundation/scss/foundation/components/_global"
 @import "variables"
 
 .social
@@ -22,6 +23,13 @@
 .timeline
     dd
         margin-bottom: 2rem
+
+footer
+    padding: 1rem 0
+    p
+        font-size: small
+        margin: 0
+        text-align: center
 
 // upper bound of the Foundation's small range
 @media #{$small-only}
@@ -55,6 +63,9 @@
 
     .aside
         @include border-radius(20px 0 0 20px)
+
+    .content
+        @include border-radius(0 20px 20px 0)
 
     .gravatar
         margin-top: 1em

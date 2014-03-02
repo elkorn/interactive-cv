@@ -1,12 +1,13 @@
 "use strict";
 
 angular.module("interactiveCvApp")
-    .controller("MainCtrl", function ($scope, $rootScope, $http, HeightEqualizer) {
+    .controller("MainCtrl", function ($scope, $rootScope, $http) {
+
         $http.get("/api/awesomeThings").success(function (awesomeThings) {
             $scope.awesomeThings = awesomeThings;
         });
 
-        $scope.equalizeHeight = function () {
-            HeightEqualizer.equalizeHeight();
-        };
+        $http.get("/api/appInfo").success(function (appInfo) {
+            $scope.appInfo = appInfo;
+        });
     });

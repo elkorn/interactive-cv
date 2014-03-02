@@ -14,7 +14,7 @@ function show(element) {
 }
 
 angular.module("interactiveCvApp")
-    .directive("skillBar", function ($timeout, HeightEqualizer) {
+    .directive("skillBar", function ($timeout) {
         return {
             skill: "=",
             restrict: "A",
@@ -35,8 +35,6 @@ angular.module("interactiveCvApp")
                     show(level);
                     show(name);
                 }, 500);
-
-                HeightEqualizer.equalizeHeight();
             }
         };
     });
