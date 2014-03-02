@@ -1,0 +1,46 @@
+@import "compass/css3/border-radius"
+@import "variables"
+
+.social
+    text-align: center
+
+// upper bound of the Foundation's small range
+@media #{$small-only}
+    .aside
+        max-height: 170px
+
+@media #{$medium-only}
+    .aside
+        max-height: 170px
+
+@media #{$small-up}
+    .small-text-centered
+        text-align: center
+
+    .small-text-uncentered
+        text-align: inherit
+
+
+@media #{$medium-up}
+    .medium-text-centered
+        text-align: center
+
+    .medium-text-uncentered
+        text-align: inherit
+
+@media #{$large-up}
+    .main
+        margin-top: 1em
+        @include border-radius(20px)
+        border: solid 1px
+
+    .aside
+        @include border-radius(20px 0 0 20px)
+
+    .gravatar
+        margin-top: 1em
+
+    .large-text-centered
+        text-align: center
+    .large-text-uncentered
+        text-align: inherit

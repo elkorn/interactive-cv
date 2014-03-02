@@ -1,0 +1,6 @@
+$baseImgPath: "../images/"
+
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat)
+    background-image: url(#{$baseImgPath}#{$imgpath})
+    background-position: $position
+    background-repeat: $repeat
