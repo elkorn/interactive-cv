@@ -19,7 +19,7 @@ angular.module("interactiveCvApp")
                 level > 90 ? "Expert" :
                 level > 70 ? "Proficient" :
                 level > 50 ? "Competent" :
-                level > 30 ? "Learning" :
-                "Layman";
+                level > 30 ? "Adv. beginner" :
+                "Novice";
         };
     });

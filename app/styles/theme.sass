@@ -3,6 +3,8 @@
 @import "mixins/background"
 @import "colors/colors"
 
+$light-silver: lighten($silver, 10)
+
 body
     @include background('brushed.png', 0 0, repeat)
 
@@ -11,11 +13,18 @@ body
     background: $white
     @include single-box-shadow(rgba($black, 0.5), 0, 1px, 50px, 0)
 
+.timeline-item
+    border-left-color: $silver
+
 .gravatar
     @include border-radius(100%)
 
 .aside
-    background-color: lighten($silver, 10)
+    background-color: $light-silver
 
 .skill-bar-text
     color: $white
+
+.progress
+    .meter
+        background-color: $blue

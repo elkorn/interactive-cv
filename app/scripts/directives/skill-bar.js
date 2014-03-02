@@ -1,9 +1,11 @@
 "use strict";
 
 function setWidth(element, width) {
-    element.css({
-        width: width
-    });
+    if (element) {
+        element.css({
+            width: width
+        });
+    }
 }
 
 function show(element) {
@@ -19,9 +21,14 @@ angular.module("interactiveCvApp")
             replace: true,
             templateUrl: "partials/skill-bar.html",
             link: function (scope, element) {
+
                 var meter = angular.element(".meter", element);
                 var level = angular.element(".skill-level", meter);
                 var name = angular.element(".skill-name", meter);
+                if(scope.skill.level <= 20) {
+                    level.remove();
+                }
+
                 setWidth(meter, "0%");
                 $timeout(function () {
                     setWidth(meter, scope.skill.level + "%");

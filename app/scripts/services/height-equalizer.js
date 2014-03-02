@@ -1,6 +1,6 @@
 "use strict";
 
-var subviewsToLoad = 2,
+var subviewsToLoad = 3,
     loadedSubViews = 0;
 
 angular.module("interactiveCvApp")
