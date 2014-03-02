@@ -1,0 +1,12 @@
+@import "compass/css3/transition"
+
+$meter-transition-time: 0.5s
+
+.meter
+    @include single-transition(all, $meter-transition-time, ease)
+
+.skill-name
+    @include single-transition(all, $meter-transition-time, ease, $meter-transition-time/5)
+
+.skill-level
+    @include single-transition(opacity, $meter-transition-time, ease, $meter-transition-time)
