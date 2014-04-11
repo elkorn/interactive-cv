@@ -6,3 +6,5 @@ app/bower_components
 heroku
 views
 whoami.txt
+*.TODO
+lib/data/*.js
