@@ -10,6 +10,6 @@ angular.module("interactiveCvApp")
         heading: "@",
         model: "="
       },
-      templateUrl: "views/partials/heading.html"
+      templateUrl: "partials/heading.html"
     };
   });
