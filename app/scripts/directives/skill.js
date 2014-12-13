@@ -4,7 +4,7 @@ angular.module("interactiveCvApp")
     .directive("skill", function () {
         return {
             templateUrl: "partials/skill.html",
-            restrict: "E",
+            restrict: "A",
             skill: "=",
             replace: false
         };
