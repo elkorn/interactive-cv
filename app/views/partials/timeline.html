@@ -1,0 +1,22 @@
+<dl class="timeline">
+    <dt class="small-12 large-1 columns" data-ng-repeat-start="item in timeline | orderBy: '-endingDate'">
+        {{item.startingDate | date: "yyyy"}}
+    </dt>
+    <dd class="small-12 large-11 columns timeline-item" data-ng-repeat-end>
+        <header>
+            <h3>
+                {{item.title}}
+            </h3>
+            <h4>
+                {{item.location}}
+            </h4>
+            <h5> 
+                <em data-ng-if="isPresent(item)">({{item.startingDate | date:"MMM yyyy"}} - present)</em>
+                <em data-ng-if="!isPresent(item)">({{item.startingDate | date:"MMM yyyy"}} - {{item.endingDate | date:"MMM yyyy"}})</em>
+            </h5>
+        </header>
+        <span>
+            {{item.miscInfo}}
+        </span>
+    </dd>
+</dl>

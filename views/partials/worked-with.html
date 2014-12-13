@@ -1,0 +1,27 @@
+<section data-ng-controller="WorkedWithCtrl">
+    <h2 class="clearfix">
+        <div class="left">
+            Things I have worked with
+        </div>
+        <div class="right">
+            <input type="checkbox" id="workedWith_cb" ng-model="workedWithVisible">
+        </div>
+    </h2>
+    <section class="show-hide" data-ng-show="workedWithVisible">
+        <p>
+            Following is a list of tools, methodologies, frameworks etc. that I have dabbled in.
+            The list is created from the top of my head and will be updated progressively with time.
+            I probably forgot something.
+        </p>
+        <p>
+            Some things on this list I know well, some not.
+            The purpose of this section is that You can search for things that You might want to expect of me.
+        </p>
+
+        <p>
+            <span data-ng-repeat="item in workedWith | orderBy:item" class="radius secondary label worked-with">
+                {{item}}
+            </span>
+        </p>
+    </section>
+</section>

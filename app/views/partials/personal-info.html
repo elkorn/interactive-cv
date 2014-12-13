@@ -1,0 +1,81 @@
+<section data-ng-controller="PersonalCtrl">
+    <h1>
+        Korneliusz Caputa
+    </h1>
+
+    <h2 class="clearfix">
+        <section class="left">
+            Background
+        </section>
+        <section class="right">
+            <input type="checkbox" id="personal_cb" ng-model="personalVisible" />
+        </section>
+    </h2>
+
+    <section class="show-hide" data-ng-show="personalVisible" style="text-align: justify">
+        <section data-unroll>
+            <p>
+                I am a very passionate software developer, who cares <strong>a lot</strong> 
+                about what he is working on.
+            I currently focus mainly on web technologies.
+            I am constantly looking for like-minded people, with whom I can participate in creating software that matters.
+            Regardless of the tasks at hand, I strive for nourishing a creative environment while doing my job.
+            I love working on greenfield projects. Who doesn't? However, when faced with an existing system, I strive to make
+            a positive impact on its efficiency and architecture whenever possible instead of just maintaining or extending it.
+            </p>
+            <p>
+                Having started gaining commercial experience {{ inBusinessFor }}, I since have worked on a range of various projects.
+            Most of them were and are enterprise-scale (and unfortunately non-disclosable), yet I have once had the
+            pleasure of participating in a startup.
+            </p>
+            <p>
+                I have the hots for innovation. Everything is so shiny on the web, I often just can't help myself not to sit
+            and try new things out. I usually make small analyses and notes about my experiences with the more 
+            interesting new stuff.
+            </p>
+            <p>
+                As to writing code, I try to stick to the most basic rules (mainly SOLID, DRY, YAGNI and the UNIX philosophy)
+            from the moment I have first read about them (quite a few years ago).
+            Still, almost everyday I learn something new from striving to apply them fully. Uncle Bob helps. :)
+            </p>
+            <p>
+                Oh, and I <strong>adore</strong> 
+                TDD.
+            It saved my life more times than I can count.
+            </p>
+            <p>
+                From the non-technical side, I tend to get
+                <strong>
+                    very
+                </strong>
+                engaged. This can be an advantage if there is
+            something ambitious on the table. On the other hand, I sometimes get bored by menial tasks.
+            This also means that I discuss things.
+            For some people it's a drawback, because it means asking
+                <strong>
+                    a lot
+                </strong>
+                of questions.
+            Seriously, I can be a real pain with this for some people.
+            In my opinion though, all questions are valid as long as they make the goals clearer or spur creativity and
+            innovation.
+            </p>
+            <p>
+                I make it my priority to try to stick to the
+                <a href="http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/">
+                    ten commandments of egoless coding
+                </a>
+                .
+            I relish other people (or myself) pointing out my errors to me and treat them as learning opportunities.
+            </p>
+            <p>
+                I always like to think and say that nothing is impossible - and that the success every task can be written down as a
+            function of time spent on it. So, when You know that something is not possible, please let me know so that I
+            can foolishly call You a liar. :)
+            </p>
+            <a href="" id="unroll" data-ng-click="unroll()">
+                More? ({{hiddenChildren}} left)
+            </a>
+        </section>
+    </section>
+</section>

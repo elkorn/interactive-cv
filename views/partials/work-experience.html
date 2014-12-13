@@ -1,0 +1,11 @@
+<section data-ng-controller="WorkExperienceCtrl">
+    <h2 class="clearfix">
+        <div class="left">
+            Work experience
+        </div>
+        <div class="right">
+            <input type="checkbox" id="work_experience_cb" ng-model="workExperienceVisible">
+        </div>
+    </h2>
+    <section class="show-hide" data-timeline="workExperience" data-ng-show="workExperienceVisible"></section>
+</section>
