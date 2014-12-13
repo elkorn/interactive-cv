@@ -13,7 +13,6 @@ var api = require("./lib/controllers/api"),
     index = require("./lib/controllers");
 
 // Server Routes
-app.get("/api/awesomeThings", api.awesomeThings);
 app.get("/api/workingSince", api.workingSince);
 app.get("/api/skills", api.skills);
 app.get("/api/education", api.education);
@@ -22,6 +21,7 @@ app.get("/api/workExperience", api.workExperience);
 app.get("/api/workedWith", api.workedWith);
 
 // Angular Routes
+app.get("/partials/personal-info-content", index.personalInfo);
 app.get("/partials/*", index.partials);
 app.get("/*", index.index);
 

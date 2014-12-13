@@ -3,8 +3,9 @@
   "author": "elkorn",
   "version": "0.7.1",
   "dependencies": {
-    "express": "~3.4.3",
     "ejs": "~0.8.4",
+    "express": "~3.4.3",
+    "markdown": "^0.5.0",
     "moment": "~2.5.1"
   },
   "devDependencies": {
