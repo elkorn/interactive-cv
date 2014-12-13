@@ -77,7 +77,7 @@ module.exports = function (grunt) {
           "{.tmp,<%= yeoman.app %>}/scripts/{,*//*}*.js",
           "<%= yeoman.app %>/images/{,*//*}*.{png,jpg,jpeg,gif,webp,svg}",
         ],
-      
+
         options: {
           livereload: true
         }
@@ -160,8 +160,8 @@ module.exports = function (grunt) {
         ignorePath: "<%= yeoman.app %>/"
       }
     },
-    
-    
+
+
     // Compiles Sass to CSS and generates necessary files if requested
     compass: {
       options: {
@@ -396,7 +396,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask("serve", function (target) {
     if (target === "dist") {
-      return grunt.task.run(["build", "express:prod", "open", "express-keepalive"]);
+      return grunt.task.run(["build", "express:prod", "express-keepalive"]);
     }
 
     grunt.task.run([
@@ -405,7 +405,7 @@ module.exports = function (grunt) {
       "concurrent:server",
       "autoprefixer",
       "express:dev",
-      "open",
+      // "open",
       "watch"
     ]);
   });
