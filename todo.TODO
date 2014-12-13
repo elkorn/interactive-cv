@@ -1,3 +1,0 @@
-Before deployment:
- ☐ change the image name ref in the css
- ☐ move the font files to heroku/public/styles
