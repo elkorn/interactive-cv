@@ -2,9 +2,13 @@
 
 function setWidth(element, width) {
     if (element) {
-        element.css({
-            width: width
-        });
+        var prevWidth = element.data("width");
+        if (typeof(prevWidth) !== "undefined") {
+          element.removeClass("width-" + prevWidth);
+        }
+
+        element.addClass("width-" + width);
+        element.data("width", width);
     }
 }
 
@@ -29,9 +33,9 @@ angular.module("interactiveCvApp")
                     level.remove();
                 }
 
-                setWidth(meter, "0%");
+                setWidth(meter, 0);
                 $timeout(function () {
-                    setWidth(meter, scope.skill.level + "%");
+                    setWidth(meter, scope.skill.level);
                     show(level);
                     show(name);
                 }, 500);

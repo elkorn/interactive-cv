@@ -18,15 +18,15 @@ angular.module("interactiveCvApp")
           }
 
           scope.unroll = function() {
-            hiddenChildren.first().show();
+            hiddenChildren.first().removeClass("hide");
             hiddenChildren = children.not(":visible");
             updateHiddenChildrenCount();
             if (scope.hiddenChildren === 0) {
-              element.children("#unroll").hide();
+              element.children("#unroll").addClass("hide");
             }
           };
 
-          hiddenChildren.hide();
+          hiddenChildren.addClass("hide");
           updateHiddenChildrenCount();
         };
       }

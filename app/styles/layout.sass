@@ -35,7 +35,10 @@
 
 footer
     padding: 1rem 0
-    p
+    >.print
+        display: none
+
+    >p
         font-size: small
         margin: 0
         text-align: center
@@ -83,3 +86,8 @@ footer
         text-align: center
     .large-text-uncentered
         text-align: inherit
+
+// Skill bar values. Classes have to be used for pretty @print layout.
+@for $i from 0 through 100
+    .width-#{$i}
+        width: percentage($i/100)

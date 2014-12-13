@@ -7,7 +7,7 @@
 // use this if you want to recursively match all subfolders:
 // "test/spec/**/*.js"
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 
   // Load grunt tasks automatically
   require("load-grunt-tasks")(grunt);
@@ -23,7 +23,8 @@ module.exports = function (grunt) {
       // configurable paths
       app: require("./bower.json").appPath || "app",
       dist: "public",
-      views: "views"
+      views: "views",
+      data: "data"
     },
     express: {
       options: {
@@ -210,7 +211,8 @@ module.exports = function (grunt) {
     // additional tasks can operate on them
     useminPrepare: {
       html: ["<%= yeoman.app %>/<%= yeoman.views %>/index.html",
-             "<%= yeoman.app %>/<%= yeoman.views %>/index.jade"],
+        "<%= yeoman.app %>/<%= yeoman.views %>/index.jade"
+      ],
       options: {
         dest: "<%= yeoman.dist %>"
       }
@@ -219,7 +221,8 @@ module.exports = function (grunt) {
     // Performs rewrites based on rev and the useminPrepare configuration
     usemin: {
       html: ["<%= yeoman.views %>/{,*/}*.html",
-             "<%= yeoman.views %>/{,*/}*.jade"],
+        "<%= yeoman.views %>/{,*/}*.jade"
+      ],
       css: ["<%= yeoman.dist %>/styles/{,*/}*.css"],
       options: {
         assetsDirs: ["<%= yeoman.dist %>"]
@@ -324,7 +327,8 @@ module.exports = function (grunt) {
           dest: "heroku",
           src: [
             "<%= yeoman.dist %>/**",
-            "<%= yeoman.views %>/**"
+            "<%= yeoman.views %>/**",
+            "<%= yeoman.data %>/**"
           ]
         }, {
           expand: true,
@@ -399,7 +403,7 @@ module.exports = function (grunt) {
     this.async();
   });
 
-  grunt.registerTask("serve", function (target) {
+  grunt.registerTask("serve", function(target) {
     if (target === "dist") {
       return grunt.task.run(["build", "express:prod", "express-keepalive"]);
     }
@@ -415,7 +419,7 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask("server", function () {
+  grunt.registerTask("server", function() {
     grunt.log.warn("The `server` task has been deprecated. Use `grunt serve` to start a server.");
     grunt.task.run(["serve"]);
   });

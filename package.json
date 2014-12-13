@@ -1,6 +1,7 @@
 {
   "name": "interactivecv",
   "email": "helluinster@gmail.com",
+  "url": "http://elkorn.herokuapp.com/",
   "author": "elkorn",
   "version": "0.8.0",
   "dependencies": {
