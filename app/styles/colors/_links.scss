@@ -4,6 +4,6 @@ a {
   transition:         color .3s ease-in-out;
 }
 
-a:link    { color: $blue; }
+a,a:link    { color: $blue; }
 a:hover   { color: lighten($blue, 30); }
 a:active  { color: $teal; }
