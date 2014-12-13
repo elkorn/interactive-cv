@@ -1,0 +1,20 @@
+- from: Jul 2011
+  to: Feb 2012
+  at: Future Processing Sp. z o.o.
+  as: Software Engineer
+  description: Creating intranet enterprise websites in ASP .NET WebForms with MS AJAX.
+- from: Feb 2012
+  to: May 2013
+  at: Future Processing Sp. z o.o.
+  as: Lead front-end engineer of GeoAdvert.pl
+  description: Developing a Web Access layer for the service, using ASP .NET MVC3, jQuery and Google Maps.
+- from: May 2013
+  to: May 2014
+  at: Future Processing Sp. z o.o.
+  as: Software Engineer
+  description: Full-stack JavaScript web development of a distributed public transport ticketing solution for a large city.
+- from: Jun 2014
+  to: Present
+  at: Avaus
+  as: Web Technologist
+  description: Full-stack web development (AngularJS + Scala, Golang)

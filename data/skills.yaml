@@ -1,0 +1,40 @@
+- name: JavaScript
+  lvl: 90
+- name: Node.js
+  lvl: 89
+- name: CSS
+  lvl: 89
+- name: HTML5
+  lvl: 80
+- name: ASP .NET (MVC, WebAPI)
+  lvl: 65
+- name: Golang
+  lvl: 72
+- name: C#
+  lvl: 66
+- name: Scrum
+  lvl: 65
+- name: Kanban
+  lvl: 45
+- name: SQL Server
+  lvl: 61
+- name: PostgreSQL
+  lvl: 63
+- name: AWS (EC2, DynamoDB, ELB)
+  lvl: 67
+- name: WCF
+  lvl: 40
+- name: C++
+  lvl: 25
+- name: Git
+  lvl: 65
+- name: TFS
+  lvl: 45
+- name: Atlassian JIRA
+  lvl: 45
+- name: Vagrant/Docker
+  lvl: 30
+- name: Scala
+  lvl: 51
+- name: Akka
+  lvl: 40
