@@ -1,8 +1,0 @@
-<section data-ng-controller="SkillsCtrl" data-ng-init="skillsVisible=true">
-    <h2 data-heading="Skills" name="skills" model="skillsVisible"></h2>
-    <section class="show-hide" data-ng-show="skillsVisible">
-        <section ng-repeat="skill in skills | orderBy:'-level'">
-            <section data-skill="skill"></section>
-        </section>
-    </section>
-</section>
