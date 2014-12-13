@@ -1,7 +1,7 @@
 {
   "name": "interactivecv",
   "author": "elkorn",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "dependencies": {
     "ejs": "~0.8.4",
     "express": "~3.4.3",
