@@ -2,7 +2,7 @@
   "name": "interactivecv",
   "email": "helluinster@gmail.com",
   "author": "elkorn",
-  "version": "0.7.4",
+  "version": "0.8.0",
   "dependencies": {
     "ejs": "~0.8.4",
     "express": "~3.4.3",
