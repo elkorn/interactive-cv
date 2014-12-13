@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: grunt serve
+  volumes:
+    - .:/home/interactive-cv
+  ports:
+    - "9000:9000"
