@@ -310,6 +310,11 @@ module.exports = function (grunt) {
           cwd: ".tmp/images",
           dest: "<%= yeoman.dist %>/images",
           src: ["generated/*"]
+        }, {
+          expand: true,
+          cwd: "app/bower_components/foundation-icon-fonts",
+          src: ["foundation-icons.{eot,svg,ttf,woff}"],
+          dest: "<%= yeoman.dist %>/styles"
         }]
       },
       heroku: {
