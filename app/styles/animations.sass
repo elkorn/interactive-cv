@@ -1,30 +1,31 @@
 @import "compass/css3/transition"
 
 $meter-transition-time: 0.5s
+$meter-transition-stagger: 0.05s
 $show-hide-transition-time: 0.2s
 
-.meter
-    @include single-transition(all, $meter-transition-time, ease)
+.skill
+  @for $i from 0 through 40
+    $delay: $meter-transition-stagger * $i
+    &:nth-child(#{$i + 1})
+      .meter
+        @include single-transition(all, $meter-transition-time, ease, $delay)
 
-.skill-name
-    @include single-transition(all, $meter-transition-time, ease, $meter-transition-time/5)
+      .skill-name
+        @include single-transition(all, $meter-transition-time, ease, $delay+$meter-transition-time/5)
 
-.skill-level
-    @include single-transition(opacity, $meter-transition-time, ease, $meter-transition-time)
+      .skill-level
+        @include single-transition(opacity, $meter-transition-time, ease, $delay+$meter-transition-time)
 
 .show-hide
-    @include single-transition(all, $show-hide-transition-time, ease)
-    opacity: 1
+  @include single-transition(all, $show-hide-transition-time, ease)
+  opacity: 1
 
 .show-hide.ng-hide-add,
 .show-hide.ng-hide-remove
-    display: block !important
-
-.repeat-animation.ng-hide-add.ng-leave-active,
-.repeat-animation.ng-enter,
-.repeat-animation.ng-move 
+  display: block !important
 
 .show-hide.ng-hide,
 .show-hide.ng-hide-remove
-    opacity: 0
-    line-height: 0
+  opacity: 0
+  line-height: 0
