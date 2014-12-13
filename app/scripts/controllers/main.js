@@ -5,6 +5,5 @@ angular.module("interactiveCvApp")
 
         $http.get("/api/appInfo").success(function (appInfo) {
             $scope.appInfo = appInfo;
-            console.log(appInfo);
         });
     });
