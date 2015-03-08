@@ -1,8 +1,8 @@
-I am a very passionate software developer, who cares **a lot**
+I am a very passionate software engineer, who cares **a lot**
 about what he is working on.
 I currently focus mainly on full-stack web development and work on RIAs with Scala in the backend.
 
-My moonshot goal as of now is to be a full-stack/Web/Systems developer with the ability to design and implement cutting-edge, performant applications and distributed systems.
+My moonshot goal as of now is to be a full-stack/Web/Systems engineer with the ability to design and implement cutting-edge, performant applications and distributed systems.
 I try not to limit myself topic-wise or language-wise, due to the fact that I'm striving to discover new ways to get the job done while nehancing my understanding of areas previously opaque. Thus I'm open to the possibility of my perspective being turned upside down.
 
 I am constantly looking for like-minded people, with whom I can participate in creating software that matters.
