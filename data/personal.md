@@ -1,6 +1,10 @@
 I am a very passionate software developer, who cares **a lot**
 about what he is working on.
 I currently focus mainly on full-stack web development and work on RIAs with Scala in the backend.
+
+My moonshot goal as of now is to be a full-stack/Web/Systems developer with the ability to design and implement cutting-edge, performant applications and distributed systems.
+I try not to limit myself topic-wise or language-wise, due to the fact that I'm striving to discover new ways to get the job done while nehancing my understanding of areas previously opaque. Thus I'm open to the possibility of my perspective being turned upside down.
+
 I am constantly looking for like-minded people, with whom I can participate in creating software that matters.
 Regardless of the tasks at hand, I strive for nourishing a creative environment while doing my job.
 I love working on greenfield projects. Who doesn't? However, when faced with an existing system, I strive to make
@@ -20,8 +24,7 @@ It saved my life more times than I can count.
 
 [I like to read.](https://www.goodreads.com/user/show/16959046)
 
-I have the hots for innovation. Everything is so shiny on the web, I often just can't help myself not to sit
-and try new things out.
+I have the hots for innovation. I feel lucky to live in such dynamic times, where indsutries are being disrupted and paradigms are being challenged almost everyday. I like trying to stay on top of the new info (as hard as it is) by following various RSS channels and blogs.
 I usually make [small analyses](https://github.com/elkorn/wiki) and [notes](https://github.com/elkorn/books) about my experiences with the more interesting new stuff.
 
 From the non-technical side, I tend to get **very** engaged.

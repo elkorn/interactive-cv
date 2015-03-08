@@ -16,8 +16,10 @@
   lvl: 65
 - name: Kanban
   lvl: 45
+- name: REST
+  lvl: 63
 - name: SQL Server
-  lvl: 61
+  lvl: 51
 - name: PostgreSQL
   lvl: 63
 - name: AWS (EC2, DynamoDB, ELB)

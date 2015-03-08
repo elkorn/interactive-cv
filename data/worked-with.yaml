@@ -14,6 +14,7 @@
 - visual studio
 - sublime text
 - vim
+- emacs
 - html5
 - html4
 - css2
@@ -26,11 +27,13 @@
 - signalr
 - jquery
 - google maps
+- leaflet.js
 - tdd
 - grunt
 - yeoman
 - node.js
 - express
+- REST
 - c#
 - asp .net
 - mvc3
@@ -51,6 +54,7 @@
 - ms sql server
 - mysql
 - postgresql
+- es6
 - golang
 - gorilla
 - mocha
@@ -58,8 +62,10 @@
 - karma
 - xslt
 - distributed systems
+- BEM
 - xml
 - react
+- flux
 - entity framework
 - flywaydb
 - twitter bootstrap
