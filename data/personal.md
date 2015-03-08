@@ -2,11 +2,15 @@ I am a very passionate software engineer, who cares **a lot**
 about what he is working on.
 I currently focus mainly on full-stack web development and work on RIAs with Scala in the backend.
 
-My moonshot goal as of now is to be a full-stack/Web/Systems engineer with the ability to design and implement cutting-edge, performant applications and distributed systems.
-I try not to limit myself topic-wise or language-wise, due to the fact that I'm striving to discover new ways to get the job done while nehancing my understanding of areas previously opaque. Thus I'm open to the possibility of my perspective being turned upside down.
+My goal as of now is to be an expert Web/Systems engineer with the ability to design and implement cutting-edge, performant applications and distributed systems.
+I try not to limit myself topic-wise or language-wise, due to the fact that I'm striving to discover new ways to get the job done while enhancing my understanding of areas previously opaque. Thus, I'm open to the possibility of my perspective being turned upside down.
+One such shift has started to take place lately, as I have begun to commit more attention to delving into functional programming and machine learning.
 
 I am constantly looking for like-minded people, with whom I can participate in creating software that matters.
 Regardless of the tasks at hand, I strive for nourishing a creative environment while doing my job.
+I think that it's almost always worth it to approach old problems in new, different ways or tackle new ones, even if just to stir up your braina little bit.
+
+
 I love working on greenfield projects. Who doesn't? However, when faced with an existing system, I strive to make
 a positive impact on its efficiency and architecture whenever possible instead of just maintaining or extending it.
 
