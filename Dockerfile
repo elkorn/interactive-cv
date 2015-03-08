@@ -28,4 +28,4 @@ ENV NODE_ENV development
 
 EXPOSE 9000
 
-CMD ["grunt"]
+CMD ["grunt serve"]
